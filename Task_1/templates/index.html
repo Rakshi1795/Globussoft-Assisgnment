@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Scraper</title>
+</head>
+<body>
+    <h1>Amazon Scraper</h1>
+    <form method="post" action="{{ url_for('index') }}">
+        <label for="product_value">Enter Product:</label>
+        <input type="text" name="product_value" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

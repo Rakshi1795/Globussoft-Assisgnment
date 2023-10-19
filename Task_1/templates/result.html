@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Scraper Results</title>
+</head>
+<body>
+    <h1>Amazon Scraper Results</h1>
+    <p><strong>Product Description:</strong> {{ result.product_description }}</p>
+    <p><strong>Product Price:</strong> {{ result.product_price }}</p>
+    <p><strong>Product Star Ratings:</strong> {{ result.product_star_ratings }}</p>
+    <p><strong>Product Global Ratings:</strong> {{ result.product_global_ratings }}</p>
+    <img src="{{ result.product_img_src }}" alt="Product Image">
+</body>
+</html>
